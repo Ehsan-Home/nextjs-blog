@@ -9,7 +9,7 @@ export async function getStaticPaths() {
   const paths = getAllPostsIDs();
   return {
     paths,
-    fallback: true,
+    fallback: false,
   };
 }
 
